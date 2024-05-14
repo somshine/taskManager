@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: taskmanager
+
+  datasource:
+    driver_class_name: oracle.jdbc.OracleDriver
+    url: jdbc:oracle:thin:@localhost:1521:orcl
+    username: sugarfactory
+    password: parkland_123
+
+  jpa:
+    database: ORACLE
+    database-platform: org.hibernate.dialect.OracleDialect
+    hibernate:
+      ddl-auto: none
+      #show-sql: true
